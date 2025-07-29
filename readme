@@ -1,0 +1,11 @@
+ JPA Introduced (2006)
+Java Persistence API (JPA) was introduced as part of Java EE 5 (JSR 220).
+It was created to standardize ORM in Java, inspired heavily by Hibernate.
+Hibernate 3.2+ began to support JPA as a standard interface.
+🔹 Hibernate Becomes a JPA Provider
+Hibernate adapted to become a JPA-compliant provider.
+You could now use Hibernate with JPA annotations and APIs, instead of Hibernate-specific XML.
+🔹 Modern Hibernate (Post Hibernate 5)
+Hibernate continues to evolve, but JPA is the preferred interface for most developers.
+Hibernate still offers extra features beyond JPA (like interceptors, filters, etc.), but JPA is the standardized, portable way to write persistence logic.
+
