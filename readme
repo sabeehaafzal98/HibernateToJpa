@@ -9,3 +9,10 @@ You could now use Hibernate with JPA annotations and APIs, instead of Hibernate-
 Hibernate continues to evolve, but JPA is the preferred interface for most developers.
 Hibernate still offers extra features beyond JPA (like interceptors, filters, etc.), but JPA is the standardized, portable way to write persistence logic.
 
+
+
+  Course --Many-to-Many-- Student ---Many-to-one-- University
+                           |||
+                          Many-to-One
+                           |||
+                          Branch
